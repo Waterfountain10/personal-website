@@ -1,7 +1,7 @@
 # personal-website
 Personal Website  - Version 1
 
-You can check out the live website : [here ]([-url-here.org](https://william-kiem-lafond.netlify.app/home))
+You can check out the live website : [here ](https://william-kiem-lafond.netlify.app/home)
 
 Status of server: [![Netlify Status](https://api.netlify.com/api/v1/badges/8eebd037-0900-41aa-8e11-29bc32150842/deploy-status)](https://app.netlify.com/sites/william-kiem-lafond/deploys)
 # William Kiem Lafond - Personal Website
