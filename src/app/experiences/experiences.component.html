@@ -1,0 +1,93 @@
+<div id="exp">
+  <div class="experiences-header">
+    <h2>My Experiences</h2>
+    <app-dark-mode-toggle></app-dark-mode-toggle> 
+  </div>
+  <div class="work">
+    <h3>Work/Extracurricular Highlights</h3>
+    <div *ngFor="let workexp of work">
+      <div class="card">
+        <h4>
+          {{ workexp.jobTitle }} @
+          <a
+            [style.color]="!darkMode ? 'black' : 'white'"
+            class="company" rel="noreferrer noopener" target="_blank"
+            href="{{ workexp.url }}"
+            >{{ workexp.company }}</a
+          >
+        </h4>
+
+        <p *ngIf="workexp.description">{{ workexp.description }}</p>
+
+        <br>
+        <p>
+          <span *ngIf="workexp.technologies">
+            <p>
+              <span style="font-weight: 700">Technologies</span>:
+              {{ workexp.technologies }}
+            </p>
+          </span>
+          <br>
+          {{ workexp.date }} @ {{ workexp.location }}
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="buttons" id="b">
+    <div [hidden]="!darkMode">
+      <button
+        class="light-resume"
+        onclick="window.location.href='assets/WilliamKiemLafondCV.pdf'"
+      >
+        Resume
+      </button>
+    </div>
+    <div [hidden]="darkMode">
+      <button
+        class="dark-resume"
+        onclick="window.location.href='assets/WilliamKiemLafondCV.pdf'"
+      >
+        Resume
+      </button>
+    </div>
+  </div>
+  <div class="side-projects">
+    <h3>Some Cool Personal Projects</h3>
+    <div *ngFor="let project of projects">
+      <div class="card">
+        <h4>
+          <a
+            class="project-name" rel="noreferrer noopener" target="_blank"
+            [style.color]="!darkMode ? 'black' : 'white'"
+            href="{{ project.github }}"
+            >{{ project.name }}</a
+          >
+        </h4>
+        <p class="project-description">{{ project.description }}</p>
+        <p>
+          <span style="font-weight: 700">Technologies</span>:
+          {{ project.technologies }}
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="buttons" id="b">
+    <div [hidden]="darkMode">
+      <button
+        class="light-projects"
+        onclick="window.location.href='https://cloud-homegrown-e37.notion.site/William-Kiem-Lafond-s-Projects-4ebb3f691de8428683c908567cd30f61'"
+      >
+      More detailed Project Portfolio!
+      </button>
+    </div>
+    <div [hidden]="!darkMode">
+      <button
+        class="dark-projects"
+        onclick="window.location.href='https://cloud-homegrown-e37.notion.site/William-Kiem-Lafond-s-Projects-4ebb3f691de8428683c908567cd30f61'"
+      >
+      More detailed Project Portfolio!
+      </button>
+    </div>
+  </div>
+</div>
+<app-contact></app-contact>

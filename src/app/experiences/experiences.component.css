@@ -1,0 +1,172 @@
+
+.experiences-header {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    gap: 20px;
+    padding: 0 20px; /* Add padding to ensure content is not sticking to the edges */
+}
+
+.card {
+    border: 3px solid;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: .3rem;
+}
+
+h3 {
+    font-style: italic;
+    margin-bottom: -1rem;
+}
+
+p {
+    margin: 0;
+    padding: 3px;
+    font-size: 15px;
+}
+
+
+h4 {
+    margin: 0; 
+    padding-bottom: 3px;
+}
+
+
+a {
+    text-decoration: none;
+	position: relative;
+}
+
+a::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 0.1em;
+	background-color: #A9CDB0;
+	opacity: 0;
+	transition: opacity 300ms, transform 300ms;
+}
+
+a:hover::after,
+a:focus::after {
+	opacity: 1;
+	transform: translate3d(0, 0.05em, 0);
+}
+
+.side-projects {
+    margin-top: 4rem;
+}
+
+.project-description {
+    margin-bottom: 0.3rem;
+}
+
+.buttons button {
+    display: block;
+    width: 100%;
+    height: max(4vw, 4vh);
+    font-family: Dina;
+    font-style: Bold;
+    font-size: max(1.7vw, 1.7vh);
+    font-weight: 700;
+    letter-spacing: -.01em;
+    line-height: 1.3;
+}
+ 
+#b {
+    height: auto;
+    width: auto;
+}
+
+.dark-projects,
+.dark-resume {
+    background-color: #e1e1e5;
+    backface-visibility: hidden;
+    border-radius: .25rem;
+    border: 0.125rem solid #e1e1e5;
+    box-sizing: border-box;
+    color: #4C6250;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.light-projects,
+.light-resume {
+    background-color: #4C6250;
+    backface-visibility: hidden;
+    border-radius: .25rem;
+    border: 0.125rem solid #4C6250;
+    box-sizing: border-box;
+    color: #e1e1e5;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transform: translateZ(0) scale(1);
+    transition: transform .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+@media screen and (max-width: 800px) {
+    #exp {
+        margin: 25px;
+    }
+
+    h2 {
+        font-size: 25px;
+        line-height: 25px;
+        margin:0;
+        padding-bottom: 10px;
+    }
+
+    h3 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    h4 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    p, li{
+        font-size: 11px;
+        line-height: 15px;
+    }
+    
+    .card {
+        padding: 20px;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    .buttons {
+        width: 30px;
+        font-size: 12px;
+    }
+
+    .experience-content{
+        padding: 0;
+    }
+
+    .work, .side-projects {
+        margin-bottom: 2rem;
+    }
+
+    .side-projects {
+        margin-top: 3rem;
+    }
+}

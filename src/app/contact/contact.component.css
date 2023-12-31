@@ -1,0 +1,59 @@
+.contact-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+img {
+    margin: 0 0.8rem;
+}
+
+@media screen and (max-width: 800px) {
+    img {
+        width: 30px;
+        margin: 0 2vw;
+    }
+    
+    .contact-container {
+        margin-top: 1rem;
+        padding-top: 1rem;
+    }
+
+    p{
+        font-size: 13px;
+    }
+}
+
+.bubble-message {
+    position: absolute;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+  bottom: 100%; /* Positions the message above the icon */
+  left: 50%; /* Centers the message horizontally */
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+
+.contact-item:hover .bubble-message {
+    opacity: 1;
+    visibility: visible;
+}
+
+.contact-item {
+    position: relative;
+    cursor: pointer; /* Changes the cursor to a pointer */
+}
+
+.social-media {
+    display: flex; /* Aligns icons horizontally */
+    align-items: center; /* Centers icons vertically */
+    justify-content: center; /* Centers icons horizontally */
+    gap: 20px; /* Adjust the space between icons */
+  }

@@ -1,0 +1,28 @@
+.home-subheading {
+    margin-top: -50px;
+    text-overflow: clip;
+    overflow: hidden;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.home-container {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 8vw;
+        line-height: 9vw;
+        margin-top: 1rem;
+    }
+    .home-subheading {
+        font-size: 4vw;
+        line-height: 6vw;
+        padding-top: 2rem;
+    }
+
+    img {
+        width: 70vw;
+    }
+}
