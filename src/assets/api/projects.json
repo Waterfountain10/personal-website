@@ -1,0 +1,23 @@
+[
+
+    {
+        "name": "Personal Website",
+        "description": "You are looking at it.",
+        "technologies": "Angular, Typescript, HTML5, SCSS, JSON, Netflify (if it's still free by the time you read this)",
+        "github": ""
+
+    },
+    {
+        "name": "Magic Chalk",
+        "description": "Web-cam application that lets user scribble simple mathematical equations in the air. Uses Ai-based technologies to parse the scribble, solve the detected equation, and save it on app's interface. Trained and tweaked our own CNN model achieving 96% accuracy.",
+        "github": "https://github.com/kevinliu399/Magic-Chalk",
+        "technologies": "Python, Streamlit, OpenCV, Kaggle, MediaPipe, TensorFlow"
+    },
+    {
+        "name": "AuthentInk",
+        "description": " Signature forger detector. Employs a Siamese Neural Network and uses contrastive loss to measure the signatures' similarities. Enables users to capture live signature images through external camera, and compare them to a stored authentic signature dataset. Submitted @ MAIS Hacks 2023. Won 3rd place.",
+        "technologies": "Python, OpenCV, PyQt5, MediaPipe framework, Pytorch, Kaggle",
+        "github": "https://github.com/kevinliu399/AuthentInk"
+    }
+
+]

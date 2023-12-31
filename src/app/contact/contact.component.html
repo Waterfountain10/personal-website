@@ -1,0 +1,40 @@
+<div class='contact-container'>
+    <p>© William Kiem Lafond, 2024</p>
+
+      
+    <div *ngIf="!darkMode" class='social-media'>
+        <a href="https://www.linkedin.com/in/william-kiem-lafond-98ab61233/">
+            <img width=50 src="assets/linkedin_light.svg"/>
+        </a>
+        <a href="https://github.com/Waterfountain10">
+            <img width=50 src="assets/github_light.svg">
+        </a>
+        <div width=50 class="contact-item">
+            <i class="fab fa-discord" (click)="copyToClipboard()">
+                <img width=50 src="assets/discord_light.svg">
+                <span class="bubble-message" *ngIf="showBubble">Discord username copied!</span>
+            </i>
+        </div>
+        <a href="https://www.instagram.com/waterfountain10/">
+            <img width=50 src="assets/ig_light.svg">
+        </a>
+    </div>
+
+    <div *ngIf="darkMode" class='social-media'>
+        <a href="https://www.linkedin.com/in/william-kiem-lafond-98ab61233/">
+            <img  width=50 src="assets/linkedin_dark.svg"/>
+        </a>
+        <a href="https://github.com/Waterfountain10">
+            <img width=50 src="assets/github_dark.svg">
+        </a>
+        <div width=50 class="contact-item">
+            <i class="fab fa-discord" (click)="copyToClipboard()">
+                <img width=50 src="assets/discord_dark.svg">
+                <span class="bubble-message" *ngIf="showBubble">Discord username copied!</span>
+            </i>
+        </div>
+        <a href="https://www.instagram.com/waterfountain10/">
+            <img width=50 src="assets/ig_dark.svg">
+        </a>
+    </div>
+</div>

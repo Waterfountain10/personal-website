@@ -1,0 +1,134 @@
+:root {
+    --primary-color: #313638;
+    --secondary-color: #1c1c1c; /* Dark gray for secondary color */
+    --font-color: #313638;
+    --bg-color: #e1e1e5;
+    --heading-color: #313638;
+}
+  
+[data-theme="dark"] {
+    --primary-color: #e1e1e5;
+    --secondary-color: #e1e1e5;
+    --font-color: #e1e1e5;
+    --bg-color: #1c1c1c; /* Dark gray for dark theme background */
+    --heading-color: #e1e1e5;
+}
+
+@font-face {
+    font-family: 'Dina';
+    src: url("src/assets/fonts/DinaRemasterII-01.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Dina', sans-serif;
+}
+  
+body::-webkit-scrollbar {
+    display: none;
+}
+  
+body:not(.dark-mode-preloading) {
+    transition: all 0.3s linear;
+}
+  
+body.dark-mode {
+    background-color: #1c1c1c; /* Dark gray applied */
+    color: #e1e1e5;
+}
+  
+body.light-mode {
+    background-color: #e1e1e5;
+    color: #313638;
+}
+  
+h1.dark-mode {
+    color: #e1e1e5;
+}
+  
+h1.light-mode {
+    color: #313638;
+}
+  
+h2.dark-mode {
+    color: #e1e1e5;
+}
+  
+h2.light-mode {
+    color: #313638;
+}
+  
+h3.dark-mode {
+    color: #D2E6D6; /* Consider adjusting this color if needed for the vintage look */
+}
+  
+h3.light-mode {
+    color: #e1e1e5;
+}
+  
+h4.dark-mode {
+    color: #e1e1e5;
+}
+  
+h4.light-mode {
+    color: #313638;
+}
+  
+p.dark-mode {
+    color: #e1e1e5;
+}
+  
+p.light-mode {
+    color: #313638;
+}
+  
+a.dark-mode {
+    color: #313638;
+}
+  
+a.light-mode {
+    color: #e1e1e5;
+}
+  
+h1 {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 106px;
+}
+  
+h2 {
+    font-size: 50px;
+    font-weight: 700;
+
+}
+  
+h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+  
+h4 {
+    font-size: 22px;
+    font-weight: 700;
+}
+  
+p {
+    font-size: 17px;
+    font-weight: normal;
+}
+  
+svg path{
+    fill: var(--font-color);
+}
+
+img {
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}

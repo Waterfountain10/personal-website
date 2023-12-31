@@ -1,0 +1,15 @@
+<div class='home-container'>
+    <h1>{{greeting}}, I'm William</h1>
+    <h2 class="home-subheading">
+        <span [hidden]="!darkMode" class="tw" #tw></span>
+        <span [hidden]="darkMode" class="twdark" id="twdark"></span>
+    </h2>
+    <a [hidden]="darkMode">
+
+    </a>
+    <a [hidden]="!darkMode">
+
+    </a>
+    <app-dark-mode-toggle></app-dark-mode-toggle>
+</div>
+<app-contact></app-contact>

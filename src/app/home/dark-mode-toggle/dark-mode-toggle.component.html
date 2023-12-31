@@ -1,0 +1,20 @@
+<input 
+    id="darkMode"
+    type="checkbox"
+    [checked]="darkMode$ | async"
+    (change)="onToggle()"
+    class="toggle"
+>
+<!--when the toggle is clicked, it will switch between the sun and moon-->
+<label class="toggle-label" for="darkMode">
+    <img
+        src="assets/sun.svg"
+        title="Change to light mode!"
+        class="moon"
+    />
+    <img
+        src="assets/moon.svg"
+        title="Change to dark mode!"
+        class="sun"
+    />
+</label>

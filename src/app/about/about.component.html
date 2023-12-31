@@ -1,0 +1,61 @@
+<div class="about-container">
+  <div class="about-header"><h2>About Me</h2></div>
+  <div class="about-general">
+    <div class="about-picture">
+      <a [hidden]="darkMode">
+        <img src="" />
+      </a>
+      <a [hidden]="!darkMode">
+        <img src="" />
+      </a>
+    </div>
+    <div class="about-bio">
+      Hello, I'm William, and I'm a Mathematics and Computer Science student at McGill University!
+      <br />
+      <br />
+      I have experience in fullstack development, utilizing technologies such as
+      <span class="tech">React</span>, <span class="tech">Django</span>,
+      <span class="tech">Angular</span>, <span class="tech">Flask</span>, and
+      <span class="tech">MySQL</span>
+      .
+
+
+      <br />
+      <br />
+      Currently, I'm working as a software dev for <a href="https://mcgillai.com/" target="_blank" rel="noreferrer noopener" 
+      ><span
+        style="color: rgb(182, 73, 73); font-weight: 800; text-decoration: underline"
+        >MAIS</span
+      ></a>. I am part of a the Kernel Team -- where we specialize in the incubation of AI-based projects.
+
+      <br />
+      <br />
+      I also have experience in Graphics Design and Visual Presentations from my time at 
+      <a href="https://lafondarchitecte.ca/" rel="noreferrer noopener" target="_blank">
+        <span style="color: #73b334; font-weight: 800; text-decoration: underline">
+          Lafond Architecte</span>
+      </a>, my dad's architecture firm.
+
+      <br />
+      <br />
+      In my free time, I enjoy reading on scientific papers, especially anything geometry or topology-related. 
+      If I am not looking at numbers or screens, I am most probably at the gym -- working out with my dragonboat team, 
+      <a href="https://www.facebook.com/watch/?v=1470241896352192" rel="noreferrer noopener" target="_blank">
+        <span style="color: #34abb3; font-weight: 800; text-decoration: underline">
+          True Grit
+        </span>
+      </a>
+      
+      <br />
+      <br />I’m exploring Summer 2024 internship opportunities.
+      <a href="william.lafond@mail.mcgill.ca"
+        ><span
+          [style.color]="!darkMode ? '#313638' : '#e1e1e5'"
+          style="text-decoration: underline; font-weight: 800"
+          >Get in touch</span
+        ></a
+      >.
+    </div>
+  </div>
+</div>
+<app-contact></app-contact>

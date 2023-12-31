@@ -1,0 +1,25 @@
+[
+    {
+        "jobTitle": "Software Developer",
+        "company": "MAIS Kernel, Product Team",
+        "description": [
+            "Built alongside 3 other developpers the full-stack development of a market product. Focused on designing, prototyping, testing, and deployment of the Kernel's Winter 2023 semester-long project [To be disclosed]. Also, closely worked with the team's ML-engineer for synchronous repo."
+        ],
+        "technologies": "React, Next.js, Kaggle, Pandas, Numpy, MySQL, Azure/Azure DevOps, Matplotlib",
+        "date": "Dec 2023 - Present",
+        "location": "Montreal, QC",
+        "url": "https://mcgillai.com/"
+    },
+    {
+        "jobTitle": "Design Coordinator",
+        "company": "Lafond Architecte",
+        "description": [
+            "Worked on static and dynamic presentations for urban designing - architectural projects throughout Quebec Province. Assisted lead-designer in presentations -- ocassionaly taking the microphone."
+        ],
+        "technologies": "Microsoft Products, Illustrator, InDesign, Canva, Figma, PremierePro, Excel,",
+        "date": "2021 - 2023",
+        "location": "Montreal, QC",
+        "url": "https://lafondarchitecte.ca/"
+    }
+
+]
