@@ -1,0 +1,3 @@
+[build]
+  publish = "dist/my-app"
+  command = "ng build"
