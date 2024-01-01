@@ -1,7 +1,8 @@
 # personal-website
 Personal Website  - Version 1
 <br><br/>
-<img width="1419" alt="Screenshot 2023-12-30 at 11 48 10 PM" src="https://github.com/Waterfountain10/personal-website/assets/98282992/bc04bb04-5d7d-4dff-9cba-9a53f5c27f3c">
+<img width="1194" alt="image" src="https://github.com/Waterfountain10/personal-website/assets/98282992/75b15d15-acc3-4d02-9b2c-edaad075d111">
+
 
 You can check out the live website : [here ](https://william-kiem-lafond.netlify.app/home)
 
