@@ -14,13 +14,13 @@
 .sun,
 .moon {
     position: absolute;
-    left: 0;
+    left: 0%;
     width: 100%;
     height: auto;
-    transition: top 0.7s;
+    transition:  top 0.7s;
     user-select: none;
     transform: scale(0.8);
-    margin-top: 5px;
+
 }
   
 .sun {

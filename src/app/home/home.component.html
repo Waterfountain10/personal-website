@@ -1,5 +1,22 @@
+<style>
+    .home-header {
+        display: flex;
+        justify-content: center;
+        align-items: space-between;
+        gap: 20px;
+        padding: 0 20px; /* Add padding to ensure content is not sticking to the edges */
+    }
+
+</style>
+
 <div class='home-container'>
-    <h1>{{greeting}}, I'm William</h1>
+    
+    <div class="home-header"> 
+        <h1>{{greeting}}, I'm William</h1>
+        <app-dark-mode-toggle></app-dark-mode-toggle> 
+        
+    </div>
+
     <h2 class="home-subheading">
         <span [hidden]="!darkMode" class="tw" #tw></span>
         <span [hidden]="darkMode" class="twdark" id="twdark"></span>
@@ -7,9 +24,10 @@
     <a [hidden]="darkMode">
 
     </a>
+    
     <a [hidden]="!darkMode">
 
     </a>
-    <app-dark-mode-toggle></app-dark-mode-toggle>
+
 </div>
 <app-contact></app-contact>

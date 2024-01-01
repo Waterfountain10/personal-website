@@ -88,7 +88,7 @@ a:focus::after {
     border-radius: .25rem;
     border: 0.125rem solid #e1e1e5;
     box-sizing: border-box;
-    color: #4C6250;
+    color: #1c1c1c;;
     cursor: pointer;
     display: inline-block;
     position: relative;
@@ -98,14 +98,36 @@ a:focus::after {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
+    padding: 0.5rem 1rem;
+    border: 3px solid;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: .3rem;
+    padding: 0.5em 1em
+
+    
+    
+}
+
+.box {
+    max-width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.box_project {
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
 }
 
 .light-projects,
 .light-resume {
-    background-color: #4C6250;
+    background-color: #1c1c1c;;
     backface-visibility: hidden;
     border-radius: .25rem;
-    border: 0.125rem solid #4C6250;
+    border: 0.125rem solid #1c1c1c;;
     box-sizing: border-box;
     color: #e1e1e5;
     cursor: pointer;
@@ -118,6 +140,13 @@ a:focus::after {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
+    padding: 0.5rem 1rem;
+    border: 3px solid;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: .3rem;
+    padding: 0.5em 1em
 }
 
 @media screen and (max-width: 800px) {

@@ -56,6 +56,14 @@ h1.light-mode {
 h2.dark-mode {
     color: #e1e1e5;
 }
+
+h2.WKL_dark {
+    color: #e1e1e5;
+}
+
+h2.WKL_light {
+    color: #313638;
+}
   
 h2.light-mode {
     color: #313638;

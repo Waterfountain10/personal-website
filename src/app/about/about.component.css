@@ -1,9 +1,10 @@
 .about-header {
-    text-align: center;
-    align-items: center;
-    margin-top: 2rem;
-}
-
+        display: flex;
+        justify-content: center;
+        align-items: space-between;
+        gap: 20px;
+        padding: 0 20px; /* Add padding to ensure content is not sticking to the edges */
+    }
 .about-container {
     align-items: center;
     display: block;

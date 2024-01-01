@@ -35,20 +35,25 @@
   </div>
   <div class="buttons" id="b">
     <div [hidden]="!darkMode">
-      <button
+      <div class="box">
+        <button
         class="light-resume"
-        onclick="window.location.href='assets/WilliamKiemLafondCV.pdf'"
+        onclick="window.location.href='assets/William Kiem Lafond CV 2024 (5).pdf'"
       >
         Resume
       </button>
+      </div>
+
     </div>
     <div [hidden]="darkMode">
-      <button
-        class="dark-resume"
-        onclick="window.location.href='assets/WilliamKiemLafondCV.pdf'"
-      >
-        Resume
-      </button>
+      <div class="box">
+        <button
+          class="dark-resume"
+          onclick="window.location.href='assets/William Kiem Lafond CV 2024 (5).pdf'"
+        >
+          Resume
+        </button>
+      </div>
     </div>
   </div>
   <div class="side-projects">
@@ -72,22 +77,28 @@
     </div>
   </div>
   <div class="buttons" id="b">
-    <div [hidden]="darkMode">
-      <button
+    <div [hidden]="!darkMode">
+      <div class="box_project">
+        <button
         class="light-projects"
         onclick="window.location.href='https://cloud-homegrown-e37.notion.site/William-Kiem-Lafond-s-Projects-4ebb3f691de8428683c908567cd30f61'"
       >
       More detailed Project Portfolio!
       </button>
+      </div>
+
     </div>
-    <div [hidden]="!darkMode">
-      <button
-        class="dark-projects"
-        onclick="window.location.href='https://cloud-homegrown-e37.notion.site/William-Kiem-Lafond-s-Projects-4ebb3f691de8428683c908567cd30f61'"
-      >
-      More detailed Project Portfolio!
-      </button>
+      <div [hidden]="darkMode">
+        <div class="box_project">
+          <button
+            class="dark-projects"
+            onclick="window.location.href='https://cloud-homegrown-e37.notion.site/William-Kiem-Lafond-s-Projects-4ebb3f691de8428683c908567cd30f61'"
+          >
+          More detailed Project Portfolio!
+          </button>
+      </div>
     </div>
+
   </div>
 </div>
 <app-contact></app-contact>
