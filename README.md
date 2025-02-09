@@ -1,5 +1,6 @@
 # personal-website
 Personal Website  - Version 1
+(This website is not up to date)
 <br><br/>
 <img width="1194" alt="image" src="https://github.com/Waterfountain10/personal-website/assets/98282992/75b15d15-acc3-4d02-9b2c-edaad075d111">
 
